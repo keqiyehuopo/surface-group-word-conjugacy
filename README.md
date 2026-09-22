@@ -107,6 +107,4 @@ To use the Chinese version, import from `word_conjugacy` instead.
 
 ## Implementation notes
 
-Both notebooks include the same three corrections already enabled by default in Python: the reversed target word in reduction rules 1–2, flat concatenation in the final conjugator, and preservation of the exponent in the special power branch. The remaining notebook structure, examples, and algorithm are preserved.
-
 Python defaults to `repair=True`. Its optional `repair=False` mode retains the original reduction and power-branch behavior for comparison, while still fixing the nested list. Use the default mode for computations.
